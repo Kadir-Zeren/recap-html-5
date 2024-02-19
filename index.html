@@ -10,8 +10,17 @@
     "
     />
     <link rel="shortcut icon" href="./img/logo.webp" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="still.css" />
     <title>Recap</title>
+    <style>
+      .par {
+        color: white;
+        background-color: red;
+      }
+      #container {
+        border: 2px solid yellowgreen;
+      }
+    </style>
   </head>
   <body>
     <h1>Bu bir H1 etiketidie</h1>
@@ -21,23 +30,34 @@
     <h5>Bu bir H5 etiketidie</h5>
     <h6>Bu bir H6 etiketidie</h6>
 
-    <div>
-      <p>
+    <div id="container">
+      <p class="par">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
         repudiandae voluptas earum maiores pariatur voluptatum laborum iusto?
         Dolores veniam pariatur a laudantium voluptas explicabo, est, quisquam
         repudiandae, animi fugiat dolor.
       </p>
-      <p>
+      <p style="color: blueviolet; background-color: beige">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis
         veniam necessitatibus modi eius aperiam, adipisci fuga corporis minima
         numquam, placeat quam. Deserunt a laudantium provident voluptatibus
         officia, dicta ratione molestiae!
       </p>
-      <p>
+
+      <p class="par">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero incidunt
         aliquam inventore beatae nobis nam molestiae soluta itaque rerum odit.
       </p>
     </div>
+    <section>
+      Lorem ipsum dolor, sit <b>amet</b> <strong>consectetur </strong>
+      <u>accusantium</u> elit. Quam minus velit architecto! Sit placeat
+      <em>harum </em> vero enim a <del>corporis </del> earum suscipit tempore
+      omnis consequatur, libero dignissimos error repellendus ratione?
+    </section>
+    <br />
+    <article>Bu urunun fiyyati <span style="color: red">500 TL</span></article>
+
+    <p>Suyun formmulu H <sub>2</sub>0 </p>
   </body>
 </html>
